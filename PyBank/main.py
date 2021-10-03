@@ -35,7 +35,6 @@ with open(fileLoad) as budgetData:
     # establish previous total revenue- found in index 1
     previousTotal = float(firstRow[1])
     
-
     for row in csvreader:
         # add 1 to the count of total months
         totalMonths += 1 
